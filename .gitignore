@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# ChromaDB
+chroma_db/
+
+# Environment variables / secrets
+.env
+
+# PDF documents
+Documents/*.pdf
+
+# VS Code
+.vscode/
