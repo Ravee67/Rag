@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-pdf_path = "Documents/constitution.pdf"
+pdf_path = "Documents/tesla_annual_report.pdf"
 
 loader = PyPDFLoader(pdf_path)
 documents = loader.load()

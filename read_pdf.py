@@ -1,6 +1,6 @@
 from pypdf import PdfReader
 
-pdf_path = "Documents/constitution.pdf"
+pdf_path = "Documents/tesla_annual_report.pdf"
 
 reader = PdfReader(pdf_path)
 

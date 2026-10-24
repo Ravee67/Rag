@@ -17,3 +17,8 @@ Documents/*.pdf
 
 # VS Code
 .vscode/
+
+# Node / Frontend
+node_modules/
+dist/
+*.local

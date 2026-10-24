@@ -4,7 +4,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
 # 1. Load PDF
-pdf_path = "Documents/constitution.pdf"
+pdf_path = "Documents/tesla_annual_report.pdf"
 
 loader = PyPDFLoader(pdf_path)
 documents = loader.load()

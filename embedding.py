@@ -8,7 +8,7 @@ embeddings = HuggingFaceEmbeddings(
 print("Embedding model loaded!")
 
 # Test embedding
-text = "The Constitution of India"
+text = "Tesla Annual Report 2025"
 
 vector = embeddings.embed_query(text)
 
